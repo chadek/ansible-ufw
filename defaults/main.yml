@@ -3,7 +3,9 @@
 ufw_default_incoming_policy: deny
 ufw_default_outgoing_policy: allow
 
-ufw_logging: 'off'
+ufw_logging: "off"
+
+ufw_reset: false
 
 ufw_rules:
   - rule: allow
